@@ -4,7 +4,7 @@ CREATE DATABASE OnlineFood_db;
 -- STEP 2: Use Database
 USE OnlineFood_db;
 
--- Create ENUM types
+-- Create ENUM types is optional
 CREATE TYPE order_status AS ENUM ('Placed', 'Preparing', 'Out for Delivery', 'Delivered', 'Cancelled');
 CREATE TYPE payment_method AS ENUM ('Card', 'Cash', 'UPI', 'Wallet');
 CREATE TYPE payment_status AS ENUM ('Success', 'Failed', 'Pending');
