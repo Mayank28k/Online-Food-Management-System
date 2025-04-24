@@ -16,12 +16,12 @@ CREATE TABLE Customers(
     CustomerName VARCHAR(120),
     EmailID VARCHAR(120) UNIQUE,
     Contact INT,
-	FlatNo VARCHAR(20),
-	Street VARCHAR(100),
+    FlatNo VARCHAR(20),
+    Street VARCHAR(100),
     City VARCHAR(40),
-	State VARCHAR(50),
-	Country VARCHAR(50),
-	PinCode VARCHAR(20)
+    State VARCHAR(50),
+    Country VARCHAR(50),
+    PinCode VARCHAR(20)
 );
 
 -- Restaurants Table
